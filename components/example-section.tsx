@@ -54,17 +54,15 @@ function ExampleSection() {
             </svg>
           </motion.div>
           <div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-white text-center mb-4 md:mb-6">
-              Build whatever you want, seriously.
+            <h2 className="justify-center text-3xl sm:text-4xl font-extrabold text-white text-center mb-4 md:mb-6">
+              Let's build together
             </h2>
             <p className="text-base sm:text-lg text-slate-300 mb-6 md:mb-8">
-              Because Tailwind is so low-level, it never encourages you to
-              design the same site twice. Even with the same color palette and
-              sizing scale, it's easy to build the same component with a
-              completely different look in the next project.
+              React, Next.js, Angular, Typescript, Node.js, MongoDB,
+              PostgresSQL, Supabase, Firebase, HTML/CSS, AWS, C#, and more
             </p>
             <Button className="bg-sky-500  hover:bg-sky-400 text-white font-semibold h-10 md:h-12 px-4 md:px-6 rounded-lg transition-colors">
-              Browse components
+              Get In Touch
             </Button>
           </div>
         </div>

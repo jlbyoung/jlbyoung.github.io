@@ -9,18 +9,11 @@ function CTASection() {
           Ready to get started?
         </h2>
         <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-          Get started with Tailwind CSS today and experience the power of
-          utility-first CSS for yourself.
+          Let's chat and start building something amazing.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Button className="bg-sky-500 hover:bg-sky-400 text-white font-semibold h-12 px-8 rounded-lg transition-colors">
-            Get started for free
-          </Button>
-          <Button
-            variant="outline"
-            className="text-black border-slate-600 hover:bg-slate-200 h-12 px-8 rounded-lg transition-colors"
-          >
-            View documentation
+            Get In Touch
           </Button>
         </div>
       </div>
