@@ -14,7 +14,7 @@ function SiteHeader() {
         <div className="flex items-center justify-start">
           <Avatar>
             <AvatarImage src="https://github.com/jlbyoung.png" />
-            <AvatarFallback>JY</AvatarFallback>
+            <AvatarFallback>JY2</AvatarFallback>
           </Avatar>
 
           <div className="flex items-center ml-5">James Young</div>
