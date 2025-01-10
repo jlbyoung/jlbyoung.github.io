@@ -6,7 +6,9 @@ import Link from "next/link";
 import { Search, Menu } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
+import { useRouter } from "next/router";
 function SiteHeader() {
+  const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="sticky top-0 z-50  border-none rounded-full w-50 py-5 px-4">
@@ -57,7 +59,12 @@ function SiteHeader() {
               <path d="M9 18c-4.51 2-5-2-7-2" />
             </svg>
           </a>
-          <Button variant="default">Get In Touch</Button>
+          <Button
+            variant="default"
+            onClick={() => router.push("mailto:imjamesyoung@gmail.com")}
+          >
+            Get In Touch
+          </Button>
         </div>
       </nav>
     </header>

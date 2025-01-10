@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { Button } from "./ui/button";
+import { useRouter } from "next/router";
 
 function ExampleSection() {
+  const router = useRouter();
   return (
     <section className="py-10 sm:py-20 md:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -61,7 +63,10 @@ function ExampleSection() {
               React, Next.js, Angular, Typescript, Node.js, MongoDB,
               PostgresSQL, Supabase, Firebase, HTML/CSS, AWS, C#, and more
             </p>
-            <Button className="bg-sky-500  hover:bg-sky-400 text-white font-semibold h-10 md:h-12 px-4 md:px-6 rounded-lg transition-colors">
+            <Button
+              className="bg-sky-500  hover:bg-sky-400 text-white font-semibold h-10 md:h-12 px-4 md:px-6 rounded-lg transition-colors"
+              onClick={() => router.push("mailto:imjamesyoung@gmail.com")}
+            >
               Get In Touch
             </Button>
           </div>

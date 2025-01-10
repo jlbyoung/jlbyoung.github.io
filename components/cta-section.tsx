@@ -1,7 +1,9 @@
 import React from "react";
 import { Button } from "./ui/button";
+import { useRouter } from "next/router";
 
 function CTASection() {
+  const router = useRouter();
   return (
     <section className="py-20 sm:py-32 mb-20 px-4">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -12,7 +14,10 @@ function CTASection() {
           Let's chat and start building something amazing.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Button className="bg-sky-500 hover:bg-sky-400 text-white font-semibold h-12 px-8 rounded-lg transition-colors">
+          <Button
+            className="bg-sky-500 hover:bg-sky-400 text-white font-semibold h-12 px-8 rounded-lg transition-colors"
+            onClick={() => router.push("mailto:imjamesyoung@gmail.com")}
+          >
             Get In Touch
           </Button>
         </div>
