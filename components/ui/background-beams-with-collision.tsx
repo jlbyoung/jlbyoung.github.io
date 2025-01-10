@@ -22,20 +22,6 @@ export const BackgroundBeamsWithCollision = ({
       delay: 2,
     },
     {
-      initialX: 600,
-      translateX: 600,
-      duration: 3,
-      repeatDelay: 3,
-      delay: 4,
-    },
-    {
-      initialX: 700,
-      translateX: 700,
-      duration: 6,
-      repeatDelay: 14,
-      delay: 4,
-    },
-    {
       initialX: 100,
       translateX: 100,
       duration: 7,
@@ -50,19 +36,34 @@ export const BackgroundBeamsWithCollision = ({
       delay: 4,
     },
     {
-      initialX: 1200,
-      translateX: 1200,
-      duration: 6,
-      repeatDelay: 4,
-      delay: 2,
-      className: "h-6",
+      initialX: 600,
+      translateX: 600,
+      duration: 3,
+      repeatDelay: 3,
+      delay: 4,
     },
+    {
+      initialX: 700,
+      translateX: 700,
+      duration: 6,
+      repeatDelay: 14,
+      delay: 4,
+    },
+
     {
       initialX: 800,
       translateX: 800,
       duration: 11,
       repeatDelay: 2,
       className: "h-20",
+    },
+    {
+      initialX: 900,
+      translateX: 900,
+      duration: 7,
+      repeatDelay: 5,
+      delay: 3,
+      className: "h-6",
     },
     {
       initialX: 1000,
@@ -72,6 +73,12 @@ export const BackgroundBeamsWithCollision = ({
       className: "h-12",
     },
     {
+      initialX: 1050,
+      translateX: 1050,
+      duration: 3,
+      repeatDelay: 6,
+    },
+    {
       initialX: 1200,
       translateX: 1200,
       duration: 6,
@@ -79,21 +86,27 @@ export const BackgroundBeamsWithCollision = ({
       delay: 2,
       className: "h-6",
     },
+
+    {
+      initialX: 1300,
+      translateX: 1300,
+      duration: 10,
+      repeatDelay: 5,
+      className: "h-20",
+    },
     {
       initialX: 1400,
       translateX: 1400,
       duration: 11,
       repeatDelay: 4,
       delay: 2,
-      className: "h-6",
     },
     {
-      initialX: 1500,
-      translateX: 1500,
+      initialX: 1550,
+      translateX: 1550,
       duration: 8,
       repeatDelay: 6,
       delay: 2,
-      className: "h-6",
     },
     {
       initialX: 1800,
@@ -101,7 +114,15 @@ export const BackgroundBeamsWithCollision = ({
       duration: 9,
       repeatDelay: 5,
       delay: 2,
-      className: "h-6",
+      className: "h-12",
+    },
+    {
+      initialX: 1900,
+      translateX: 1900,
+      duration: 6,
+      repeatDelay: 7,
+      delay: 3,
+      className: "h-20",
     },
   ];
 
