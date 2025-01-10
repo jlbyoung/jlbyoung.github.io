@@ -46,7 +46,7 @@ export function HeroSection() {
             Frontend, Backend, Databases, Hosting, Cloud.
             <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
               <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-0">
-                <span className="">5 Years of Experience.</span>
+                <span className=""> 5 Years of Experience.</span>
               </div>
             </div>
           </h2>
