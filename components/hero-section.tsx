@@ -2,7 +2,7 @@ import React from "react";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import { Button } from "./ui/button";
 import { HeroParallax } from "./ui/hero-parallax";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export function HeroSection() {
   const router = useRouter();

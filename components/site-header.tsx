@@ -5,8 +5,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { Search, Menu } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 function SiteHeader() {
   const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
